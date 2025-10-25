@@ -1,3 +1,7 @@
+# ok i started this a few days ago and am abandoning it
+
+this is a manual apworld for Mini & Max from the UFO 50 game collection. if anyone wants to pick it back up and finish this AP manual, feel free. i just don't think i would enjoy playing it, so it's pointless for me to develop it.
+
 ## ability save file values
 
 For reference, if you receive an ability, set these values to 1.0, or, if you have two of them, set it to 2.0.

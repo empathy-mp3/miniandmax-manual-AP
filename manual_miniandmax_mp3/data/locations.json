@@ -1,7 +1,22 @@
 {
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
-        {"name": "Magic Potion I from William","category": ["Western Flower Pot Small Level"],"region": "William's House on Western Flower Pot"}
+        {"name": "Give William the Teapot","category": ["Western Flower Pot Small Level"],"region": "William's House on Western Flower Pot"},
+        {"name": "Give the Mouse a Mushroom Spore","category": ["Western Flower Pot Small Level"],"region": "Cauldron Mouse's Cave"},
+        {"name": "Shinies in Falling Rock Cave","category": ["Eastern Flower Pot Small Level"],"region": "Falling Rock Cave on Eastern Flower Pot", "requires": "|Progressive Magic Potion|"},
+        {"name": "Give Blacksmith a Strong Substance","category": ["Eastern Flower Pot Tiny Level"],"region": "Beldor"},
+        {"name": "Deliver the Missing Shipment to Beldor","category": ["Eastern Flower Pot Tiny Level"],"region": "Beldor"},
+        {"name": "Dynamite from Dust Bunny Shop","category": ["Dust Bunny Warren"],"region": "Dust Bunny Warren"},
+        {"name": "Bottle from Dust Bunny Shop","category": ["Dust Bunny Warren"],"region": "Dust Bunny Warren"},
+        {"name": "Backpack from Dust Bunny Shop","category": ["Dust Bunny Warren"],"region": "Dust Bunny Warren"},
+        {"name": "Cure the Sick Dust Bunny","category": ["Dust Bunny Warren"],"region": "Dust Bunny Warren", "requires": "|Progressive Magic Potion|"},
+        {"name": "Deliver the Stolen Artifact to the Hexans","category": ["Yarn Town and the Evil Hexan Village"],"region": "Yarn Town"},
+        {"name": "15 Shinies in Evil Hexan Village Building","category": ["Yarn Town and the Evil Hexan Village"],"region": "Evil Hexan Village next to Yarn"},
+        {"name": "Rescue the Hexan Baby on the Roof","category": ["Yarn Town and the Evil Hexan Village"],"region": "Yarn Town", "requires": "|Progressive Glove|"},
+        {"name": "Rescue a Hexan Baby found in the Wild","category": ["Yarn Town and the Evil Hexan Village"],"region": "Yarn Town", "requires": "|Progressive Glove|"},
+        {"name": "Life Rock from Hexan Shop","category": ["Yarn Town and the Evil Hexan Village"],"region": "Yarn Town", "requires": "{ItemValue(shinies:1)}"},
+        {"name": "Strong Chitin from Hexan Shop","category": ["Yarn Town and the Evil Hexan Village"],"region": "Yarn Town", "requires": "{ItemValue(shinies:3)}"},
+        {"name": "Magic Potion from Hexan Shop","category": ["Yarn Town and the Evil Hexan Village"],"region": "Yarn Town", "requires": "{ItemValue(shinies:25)}"}
     ]
 }
 

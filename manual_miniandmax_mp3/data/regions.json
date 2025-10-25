@@ -5,12 +5,24 @@
         "requires": []
     },
     "Purple Carpet":{
-        "connects_to": ["Dust Bunny Warren"],
+        "connects_to": ["Dust Bunny Warren", "Yarn Town", "Evil Village next to Yarn", "Falling Rock Cave on Eastern Flower Pot"],
         "requires": []
     },
+    "Atop Eastern Flower Pot":{
+        "connects_to": ["Dust Bunny Warren", "Yarn Town", "Evil Village next to Yarn", "Falling Rock Cave on Eastern Flower Pot"],
+        "requires": []
+    },
+    "Atop Western Flower Pot":{
+        "connects_to": ["Dust Bunny Warren", "Yarn Town", "Evil Village next to Yarn", "Falling Rock Cave on Eastern Flower Pot"],
+        "requires": []
+    },
+    "Beldor":{"requires": "|Progressive Magic Potion:1|"},
     "Dust Bunny Warren":{},
     "Cauldron Mouse's Cave": {},
+    "Falling Rock Cave on Eastern Flower Pot": {},
     "Western Flower Pot Guarded Cave": {},
     "Western Flower Pot Upper Cave": {},
-    "William's House on Western Flower Pot": {}
+    "William's House on Western Flower Pot": {},
+    "Yarn Town": {"requires": "|Progressive Magic Potion:1|"},
+    "Evil Hexan Village next to Yarn": {"requires": "|Progressive Magic Potion:1|"}
 }
