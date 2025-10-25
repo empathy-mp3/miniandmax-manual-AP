@@ -1,18 +1,16 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "ExampleRegion":{
-        "connects_to": ["Second Region"],
-        "requires": "|Ryu| or {YamlCompare(Example_Range >= example )}",
-        "starting": true
+    "Start":{
+        "starting": true,
+        "requires": []
     },
-    "Second Region": {
-        "requires": "|@Characters:1|",
-        "connects_to": ["Third Region"],
-        "exit_requires": {
-            "Third Region": "|@Characters:5|"
-        }
+    "Purple Carpet":{
+        "connects_to": ["Dust Bunny Warren"],
+        "requires": []
     },
-    "Third Region": {
-        "connects_to": []
-    }
+    "Dust Bunny Warren":{},
+    "Cauldron Mouse's Cave": {},
+    "Western Flower Pot Guarded Cave": {},
+    "Western Flower Pot Upper Cave": {},
+    "William's House on Western Flower Pot": {}
 }
